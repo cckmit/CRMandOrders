@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [My Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <listeners>
+    <listener class-name="Master.TestNGListener"/>
+  </listeners>
+  <test thread-count="1" name="Some Workflow Tests 1(failed)" verbose="2">
+    <classes>
+      <class name="Master.CRMExecution">
+        <methods>
+          <include name="DeleteCompanywithOrder"/>
+          <include name="DeleteContactNote"/>
+          <include name="DeleteEmailFromAllEmail"/>
+          <include name="CreateContactWhileCreatingOrder"/>
+          <include name="DeleteInactiveCompany"/>
+          <include name="MoveEmailToNotSpam"/>
+          <include name="ExportoVcard"/>
+          <include name="VerifyContactFilter"/>
+          <include name="CreateAndDeleteComp"/>
+          <include name="CustomizeOrderNo"/>
+          <include name="Startup"/>
+          <include name="InactiveCompanyFromDashBoard"/>
+          <include name="VerifyCompanyFilter"/>
+          <include name="CreateContactFromMain"/>
+          <include name="CreateDefaultTask"/>
+          <include name="AddAddressUnderSettings"/>
+          <include name="MoveEmailToSpam"/>
+          <include name="MoveEmailToSpamFromDetailPage"/>
+          <include name="ExportCompanyCSV"/>
+          <include name="InactiveContAndVerifyNotShowingIn_ActiveFilter"/>
+          <include name="DeleteEmailFromSpam"/>
+          <include name="ChangeCompaniesVisibilityFromDashBoard"/>
+          <include name="getResult"/>
+          <include name="CreateNoteFromMain"/>
+          <include name="DeleteTeam"/>
+          <include name="CreateTeam"/>
+          <include name="DeleteDefaultTask"/>
+          <include name="endReport"/>
+          <include name="DeleteCompanyNote"/>
+          <include name="InactiveCompAndVerifyNotShowingIn_ActiveFilter"/>
+          <include name="ChangeCompaniesRecordOwnerFromDashBoard"/>
+          <include name="AddContactInCompany"/>
+          <include name="DeleteAddressUnderSettings"/>
+          <include name="ExportContactCSV"/>
+          <include name="VerifyCompanyContactIconAndAddress"/>
+          <include name="VerifyDefaultTask"/>
+          <include name="DeleteRelationship"/>
+          <include name="CreateTaskFromMainByAddingNotesAndAssigningIttoTeam"/>
+          <include name="CreateOrderAndVerifyTaxNotCalculating"/>
+          <include name="AddTaskatAppointmentPage"/>
+          <include name="SystmProperties"/>
+          <include name="ExportCompanyQB"/>
+          <include name="CreateRelationship"/>
+          <include name="CreateRelationshipBtCompAndContact"/>
+          <include name="DeleteEmailFromEmailDetailPage"/>
+        </methods>
+      </class> <!-- Master.CRMExecution -->
+    </classes>
+  </test> <!-- Some Workflow Tests 1(failed) -->
+  <test thread-count="1" name="Some Workflow Tests 2(failed)" verbose="2">
+    <classes>
+      <class name="Master.OrdersExecution1">
+        <methods>
+          <include name="CreateOrder_ShippingAddressVerification"/>
+          <include name="teardown"/>
+          <include name="CreateOrder_BillingAddressVerification"/>
+          <include name="Product_AddedTo_Invoice"/>
+          <include name="CreateInvoice"/>
+          <include name="FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification"/>
+          <include name="getResult"/>
+          <include name="Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification"/>
+          <include name="Startup"/>
+        </methods>
+      </class> <!-- Master.OrdersExecution1 -->
+    </classes>
+  </test> <!-- Some Workflow Tests 2(failed) -->
+  <test thread-count="1" name="Some Workflow Tests 3(failed)" verbose="2">
+    <classes>
+      <class name="Master.OrdersExecution2">
+        <methods>
+          <include name="Calculating_TotalPrice_OnSalesPreview"/>
+          <include name="SplitShipment_Showing_inPricing_tab"/>
+          <include name="MultiShippingAddress"/>
+          <include name="SplitShipment_Showingin_PurchaseOrder_tab"/>
+          <include name="Ackowledgement_PersonalizationDecorationDocDownload"/>
+          <include name="Acknowledgement_PreviewAckSend"/>
+          <include name="Artwork_DownloadUnderDecorationTab"/>
+          <include name="SalesOrder_PreviewDownloadPopup_PDFDocDownload"/>
+          <include name="PurchaseOrder_PreviewPOSend"/>
+          <include name="AckowledgementDownloadPopup_PDFDocDownload"/>
+          <include name="Purchase_OrderPreview_Verification"/>
+          <include name="PurchaseOrder_AtworkPODocDownload"/>
+          <include name="CreateOrder"/>
+          <include name="AckowledgementPreviewInstructions"/>
+          <include name="PurchaseOrderPreview_SplitShipment1_DetailsVerification"/>
+          <include name="Calculating_TotalPriceOnPreview"/>
+          <include name="Freight_Service_Add_TaxCalculation_Verification"/>
+          <include name="AcknowledgementPreview_ServicesDetailsVerification"/>
+          <include name="CPN_Number_EditProductConfigVerification"/>
+          <include name="ProfitMaker_SendVerification"/>
+          <include name="SalesOrder_Preview_SalesOrderSend"/>
+          <include name="Send_ASI_SmartBookslink_Verification"/>
+          <include name="Settings_ShippingTaxCalculationVerify"/>
+          <include name="Tax_not_calculating_if_Canadian_address_is_notmatching"/>
+          <include name="PurchaseOrder_OrderLevel_POPDFDocDownload"/>
+          <include name="Ackowledgement_PDFDocDownload"/>
+          <include name="PurchaseOrder_SalesPersonDetailsPreviewVerification"/>
+          <include name="PackingList_DisplayVerification"/>
+          <include name="PurchaseOrder_POPDFDocDownload"/>
+          <include name="TaxCalculationWithServiceTypeCredit"/>
+          <include name="AckowlodgementPreview_SplitShipment1Details_Verification"/>
+          <include name="PurchaseOrder_PreviewShippingDetailsVerification"/>
+          <include name="PurchaseOrderPreview_SplitShipment1_DecorationDetailsVerification"/>
+          <include name="SameAsBilling_AcknowledgementAddress_Verification_OrderLevel"/>
+          <include name="Tax_is_not_calculating_if_Canadian_addressisnotmatching"/>
+          <include name="SplitShipment_not_showingin_shippingtab"/>
+          <include name="Zero_Quantity_Validation_MessageVerification"/>
+          <include name="Requote_From_QuoteDetails"/>
+          <include name="PurchaseOrder_AtworkDecorationDocDownload"/>
+          <include name="SameAsBilling_ShippingAddress_Verification_OrderLevel"/>
+          <include name="Requote_From_OrdersDetails"/>
+          <include name="Services_VendorCompanyVerification"/>
+          <include name="AcknowlodgementPreview_SplitShipment1DecorationDetails_Verification"/>
+          <include name="BlindShip_WithConfirmation"/>
+          <include name="Ackowledgement_PreviewShippingFromDetailsVerification"/>
+          <include name="PurchaseOrder_BlindShipVerification"/>
+          <include name="SplitShipment_Showing_inDecoration_tab"/>
+          <include name="AcknowledgementOrder_PreviewSalesPersonDetails"/>
+          <include name="SameAsBilling_ShippingAddress_Verification_ProductLevel"/>
+          <include name="teardown"/>
+          <include name="Startup"/>
+          <include name="PurchaseOrder_PersonalizationDecorationDocDownload"/>
+          <include name="SalesOrderPreviewSalesPersonDetails"/>
+          <include name="Artwork_FileDeletion"/>
+          <include name="InstructionsViewing"/>
+          <include name="getResult"/>
+          <include name="Calculating_TotalPrice_OnAckowledgementPreview"/>
+          <include name="Product_AddedTo_Order"/>
+          <include name="BackButton"/>
+          <include name="Settings_ShippingTaxConfig"/>
+          <include name="UploadDSTFiles_Orderlevel"/>
+        </methods>
+      </class> <!-- Master.OrdersExecution2 -->
+    </classes>
+  </test> <!-- Some Workflow Tests 3(failed) -->
+  <test thread-count="1" name="Some Workflow Tests 4(failed)" verbose="2">
+    <classes>
+      <class name="Master.WESPORDER">
+        <methods>
+          <include name="VerificationOfBookedMarginWithMultipleProducts"/>
+          <include name="OrderCreation_FromClipBoard_WESP"/>
+          <include name="teardown"/>
+          <include name="OrderFromWESP_Project"/>
+          <include name="Startup"/>
+          <include name="SerchByInvoice"/>
+          <include name="VerificationOfBookedMargin"/>
+          <include name="VerificationOfBookedMarginAfterEditing"/>
+          <include name="WESPOrder_SafeModeActive"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Master.WESPORDER -->
+    </classes>
+  </test> <!-- Some Workflow Tests 4(failed) -->
+</suite> <!-- Failed suite [My Suite] -->

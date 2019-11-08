@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 05 21:55:56 PKT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>268 seconds (268568 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Master.SepRelease.AddCompanyNoteTD_963218()'><b>AddCompanyNoteTD_963218</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>45</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.AddingNoteUnderContactTD_()'><b>AddingNoteUnderContactTD_</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>29</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateContactFromMain()'><b>CreateContactFromMain</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>26</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateCustomerCompany()'><b>CreateCustomerCompany</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>93</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateInvoiceFromSampleRequestCBUnchecked_93894()'><b>CreateInvoiceFromSampleRequestCBUnchecked_93894</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateInvoiceFromSampleRequest_93853()'><b>CreateInvoiceFromSampleRequest_93853</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateInvoicerFromOrderCBUnchecked_93888()'><b>CreateInvoicerFromOrderCBUnchecked_93888</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateInvoicerFromOrder_93847()'><b>CreateInvoicerFromOrder_93847</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateNoteFromMain()'><b>CreateNoteFromMain</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>10</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateOrderFromQuoteCBUnchecked_93890()'><b>CreateOrderFromQuoteCBUnchecked_93890</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateOrderFromQuote_93849()'><b>CreateOrderFromQuote_93849</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateOrderFromSampleRequestCBUnchecked_93891()'><b>CreateOrderFromSampleRequestCBUnchecked_93891</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateOrderFromSampleRequest_93850()'><b>CreateOrderFromSampleRequest_93850</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateQuoteFromOrderCBUnchecked_93886()'><b>CreateQuoteFromOrderCBUnchecked_93886</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateQuoteFromOrder_93845()'><b>CreateQuoteFromOrder_93845</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateQuoteFromSampleRequestCBUnchecked_93893()'><b>CreateQuoteFromSampleRequestCBUnchecked_93893</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateQuoteFromSampleRequest_93852()'><b>CreateQuoteFromSampleRequest_93852</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateReOrderFromSampleRequestCBUnchecked_93892()'><b>CreateReOrderFromSampleRequestCBUnchecked_93892</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateReOrderFromSampleRequest_93851()'><b>CreateReOrderFromSampleRequest_93851</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateReorderFromOrderCBUnchecked_93887()'><b>CreateReorderFromOrderCBUnchecked_93887</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateReorderFromOrder_93846()'><b>CreateReorderFromOrder_93846</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateRequoteFromQuoteCBUnchecked_93889()'><b>CreateRequoteFromQuoteCBUnchecked_93889</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.CreateRequoteFromQuote_93848()'><b>CreateRequoteFromQuote_93848</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.EditCompanyNote()'><b>EditCompanyNote</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>22</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.EditContactNote()'><b>EditContactNote</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>28</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.LoginIdaho()'><b>LoginIdaho</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>3</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.Order2()'><b>Order2</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.PORefISNOTNULL_93844()'><b>PORefISNOTNULL_93844</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+<tr>
+<td title='Master.SepRelease.PORefISNULL_93843()'><b>PORefISNULL_93843</b><br>Test class: Master.SepRelease</td>
+<td></td>
+<td>0</td>
+<td>Master.SepRelease@64bf3bbf</td></tr>
+</table><p>
+</body>
+</html>

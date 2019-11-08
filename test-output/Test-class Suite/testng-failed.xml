@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Test-class Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Test-class test 2(failed)">
+    <parameter name="test-name" value="test-method One"/>
+    <classes>
+      <class name="Master.OrdersExecution1">
+        <methods>
+          <include name="UploadDSTFileOrders_Orderlevel"/>
+          <include name="FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification"/>
+          <include name="OrderSaving_WithoutSalesPerson_ValidationVerification"/>
+          <include name="CreateOrder_BillingAddressVerification"/>
+          <include name="DeleteInvoice_WithPaymentLeft"/>
+          <include name="Product_AddedTo_Invoice"/>
+          <include name="DeleteOrder_Orderlevel"/>
+          <include name="Shipping_AddressEditing"/>
+          <include name="Upload_AIExtensionFile"/>
+          <include name="LinkedTransaction_Navigation_To_OrderScreen"/>
+          <include name="Linked_Transaction_ReOrder_Verifications"/>
+          <include name="ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo"/>
+          <include name="UploadSVGFileOrders_Orderlevel"/>
+          <include name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification"/>
+          <include name="CreateOrder_FromQuote_LinkedTransactionInvoice"/>
+          <include name="ShipAccountNo_Visibility_InvoiceDocumentVerification"/>
+          <include name="Full_Payment_Verify"/>
+          <include name="Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification"/>
+          <include name="Reorder_Verification"/>
+          <include name="CreateInvoice"/>
+          <include name="ShipAccountNo_Visibility_QuoteDocumentVerification"/>
+          <include name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification"/>
+          <include name="CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen"/>
+          <include name="Quote_Download"/>
+          <include name="teardown"/>
+          <include name="CreateOrder_AcknowlodgementAddressVerification"/>
+          <include name="ShipVia_LoomisGroundOption_DropdownValueVerifcation"/>
+          <include name="Partial_PaymentLink_Verification"/>
+          <include name="CreateQuote_ShippingAddress_Verification"/>
+          <include name="Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification"/>
+          <include name="CreateOrder_ShippingAddressVerification"/>
+          <include name="CreateQuote_AddingProductToQuote"/>
+          <include name="OrdersListing_SearchOrderField_PlaceholderVerification"/>
+          <include name="CustomerFacingDoc_CPN_Visible_EnableFromSettings"/>
+          <include name="CreateQuote_BillingAddress_Verification"/>
+          <include name="InvalidFileUpload_ErrorMessageDisplayVerification"/>
+          <include name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification"/>
+          <include name="CPN_NumberVisibilityAtInvoiceDoc_Verification"/>
+          <include name="Settings_AutomaticSalesTaxChecked"/>
+          <include name="VerifyCogWheelNotExistsFor_CustomProductsVerification"/>
+          <include name="CustomProducts_SupplierSelectionDropdown_Verification"/>
+          <include name="getResult"/>
+          <include name="CreateQuote_Verification"/>
+          <include name="Enterpaymentpartial"/>
+          <include name="Startup"/>
+          <include name="FieldsData_Verifications_AfterReorder"/>
+          <include name="InvoiceCreationBillingAddress"/>
+          <include name="LoginApp"/>
+          <include name="ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification"/>
+          <include name="CreateOrder_Delete_Orderwith_Associated_Invoices"/>
+          <include name="New_InhandDate_AfterReorderVerification"/>
+          <include name="CPN_Number_QuoteDocPreview_Verification"/>
+          <include name="Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification"/>
+          <include name="AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel"/>
+          <include name="ShipAccountNo_AcknowledgementDocumentVerification"/>
+          <include name="PayWith_ElectronicFundsOption_DropdownValueVerification"/>
+          <include name="CreateInvoiceShippingAddress_Verification"/>
+        </methods>
+      </class> <!-- Master.OrdersExecution1 -->
+    </classes>
+  </test> <!-- Test-class test 2(failed) -->
+</suite> <!-- Failed suite [Test-class Suite] -->
