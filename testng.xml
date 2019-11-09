@@ -9,11 +9,7 @@
     	<class name="Master.OrdersExecution1"/>
     </classes>
   </test>
-   <test name="Some Workflow Tests 3" parallel="none">
-    <classes>
-    	<class name="Master.OrdersExecution2"/>
-    </classes>
-  </test>
+  
     
   <!-- Test -->
 </suite> 
