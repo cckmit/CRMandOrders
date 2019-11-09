@@ -3,15 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Master.SepRelease">
+      <class name="Master.OrdersExecution1">
         <methods>
-          <include name="SystmProperties"/>
-          <include name="Startup"/>
-          <include name="endReport"/>
-          <include name="PORefISNOTNULL_93844"/>
+          <include name="ShipAccountNo_Visibility_InvoiceDocumentVerification"/>
+          <include name="teardown"/>
+          <include name="ShipAccountNo_Visibility_QuoteDocumentVerification"/>
+          <include name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification"/>
           <include name="getResult"/>
+          <include name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification"/>
+          <include name="ShipAccountNo_AcknowledgementDocumentVerification"/>
+          <include name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification"/>
+          <include name="Startup"/>
         </methods>
-      </class> <!-- Master.SepRelease -->
+      </class> <!-- Master.OrdersExecution1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

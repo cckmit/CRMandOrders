@@ -32,6 +32,7 @@ public class TestNGListener extends HelpingFunction implements ITestListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
+			
 			System.out.println("Test Case Failed  and details ara "+ result.getName());
 			test.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + "Test Case is Failed due to Below Issue", ExtentColor.RED));
 			test.fail(result.getThrowable());
