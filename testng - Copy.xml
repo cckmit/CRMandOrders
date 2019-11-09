@@ -4,6 +4,11 @@
    <listeners>
     <listener class-name="Master.TestNGListener" />
   </listeners>
+   <test name="Some Workflow Tests 1" parallel="none">
+    <classes>
+    	<class name="Master.CRMExecution"/>
+    </classes>
+  </test>
    <test name="Some Workflow Tests 2" parallel="none">
     <classes>
     	<class name="Master.OrdersExecution1"/>
@@ -14,7 +19,22 @@
     	<class name="Master.OrdersExecution2"/>
     </classes>
   </test>
-    
+  
+  
+   <test name="Some Workflow Tests 4" parallel="none">
+    <classes>
+    	<class name="Master.WESPORDER"/>
+    </classes>
+  </test>
+  
+  
+  
+  <test name="Some Workflow Tests 5" parallel="none">
+    <classes>
+    	<class name="Master.SepRelease"/>
+    </classes>
+  </test>
+  
   <!-- Test -->
 </suite> 
 
