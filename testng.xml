@@ -5,16 +5,11 @@
 
 <suite name="My Suite" verbose="2"  parallel="none" thread-count="5">
   
-   		<test name="Some Workflow Tests 1"  thread-count="2" parallel="none">
+   		<test name="Some Workflow Tests 1"  thread-count="5" parallel="none">
     		<classes>
     			<class name="Master.OrdersExecution1"/>
     		</classes>
   		</test>
-  		
-  		<test name="Some Workflow Tests 2"  thread-count="2" parallel="none">
-    		<classes>
-    			<class name="Master.OrdersExecution2"/>
-    		</classes>
-  		</test>
+  	
   <!-- Test -->
 </suite> 
