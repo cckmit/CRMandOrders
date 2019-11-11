@@ -388,41 +388,41 @@ else {
 public static void VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreview_Verification() throws InterruptedException, IOException{
 	 try{
 		 
-		 Click("Click the Edit Button",  CreateQuote.OrdersDetails_EditButton);
+		 Click("Click the Edit Button", CreateQuote.OrdersDetails_EditButton);
 
- 		wait = new WebDriverWait(driver, 180);
- 		wait.until(ExpectedConditions.elementToBeClickable(CreateQuote.EditOrder_DecorationTab));
- 		   
- 		Thread.sleep(2000);
- 		    
- 		//Goto Shipping Tab
- 		CreateQuote.EditOrder_DecorationTab.click();
- 		
- 		//Enter the Vendor Notes in vendor notes Textarea
- 		CreateQuote.EditOrder_Decoration_VendorNotes.sendKeys("Test Vendor Notes");
- 		
- 		//Select the Visible Checkbox for Vendor Notes
- 		Click("Select the Visible checkbox for Vendor Notes In Decoration tab", CreateQuote.VendorNotes_Visible_Checkbox);
- 		
+		 wait = new WebDriverWait(driver, 180);
+		 wait.until(ExpectedConditions.elementToBeClickable(CreateQuote.EditOrder_DecorationTab));
 
- 		//Enter the Decoration Instructions
- 		CreateQuote.DecorationInstructions_Textarea.sendKeys("Test Decorator Instructions");
- 		
- 		Click("Select the Visible checkbox for Decorator Instructions In Decoration tab", CreateQuote.DecorationInstructions_Visible_Checkbox);
- 		
- 		Click("Click the Save Button", CreateQuote.ProductConfiguration_AddCharge_SaveButton);
-	    
- 		
- 		//waitForElementNotVisible(120, driver,CreateQuote.SpinnerLoader);
- 		Thread.sleep(8000);
-	    
-	    Click("Click the Preview Button on quote detail Page for Account No Verification", CreateQuote.Quote_Preview_Button);
-		
-	//    waitForPageLoadSave();
-	    
-	    // waitForElementNotVisible(120, driver,CreateQuote.SpinnerLoader);
-		
-		Thread.sleep(40000);
+		 Thread.sleep(2000);
+
+		 //Goto Shipping Tab
+		 CreateQuote.EditOrder_DecorationTab.click();
+
+		 //Enter the Vendor Notes in vendor notes Textarea
+		 CreateQuote.EditOrder_Decoration_VendorNotes.sendKeys("Test Vendor Notes");
+
+		 //Select the Visible Checkbox for Vendor Notes
+		 Click("Select the Visible checkbox for Vendor Notes In Decoration tab", CreateQuote.VendorNotes_Visible_Checkbox);
+
+
+		 //Enter the Decoration Instructions
+		 CreateQuote.DecorationInstructions_Textarea.sendKeys("Test Decorator Instructions");
+
+		 Click("Select the Visible checkbox for Decorator Instructions In Decoration tab", CreateQuote.DecorationInstructions_Visible_Checkbox);
+
+		 Click("Click the Save Button", CreateQuote.ProductConfiguration_AddCharge_SaveButton);
+
+
+		 //waitForElementNotVisible(120, driver,CreateQuote.SpinnerLoader);
+		 Thread.sleep(8000);
+
+		 Click("Click the Preview Button on quote detail Page for Account No Verification", CreateQuote.Quote_Preview_Button);
+
+		 // waitForPageLoadSave();
+
+		 // waitForElementNotVisible(120, driver,CreateQuote.SpinnerLoader);
+
+		 Thread.sleep(40000);
 		
 		windowhandles=driver.getWindowHandles();
 		
@@ -438,9 +438,9 @@ public static void VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProduct
 		
 		driver.switchTo().window(ChildWindow);
 
-		Thread.sleep(1000);
+		Thread.sleep(30000);
 		
-		if(CreateQuote.VendorNotes_DecoratorInstructions_QuotePreview_Verification.getText().contains("Notes: Test Vendor Notes") && CreateQuote.DecoratorInstructions_QuotePreview_Verification.getText().contains("Instructions: Test Decorator Instructions") )
+		if(CreateQuote.VendorNotes_DecoratorInstructions_QuotePreview_Verification.getText().contains("Notes:") && CreateQuote.DecoratorInstructions_QuotePreview_Verification.getText().contains("Instructions:") && CreateQuote.VendorNotes_DecoratorInstructions_QuotePreview_Verification.getText().contains("Test Vendor Notes") && CreateQuote.DecoratorInstructions_QuotePreview_Verification.getText().contains("Test Decorator Instructions"))
 		{
 			System.out.println("VendorNotes and Decorartor Instructions Displayed on Quote Preview Successfully");
 			

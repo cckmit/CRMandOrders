@@ -772,16 +772,16 @@ public class OrdersLocators{
 	@FindBy(xpath="//button[contains(text(),'Preview')]")
 	public WebElement Quote_Preview_Button;
 	
-	@FindBy(xpath="//*[@id='order-contact']/div/div[2]/div[4]/p")
+	@FindBy(xpath="//strong[contains(text(), 'Ship Account:')]")
 	public WebElement ShipAccount_QuotePreview_Verification;
 	
 	@FindBy(xpath="//*[@id='order-contact']/div/div[2]/div[4]/p")
 	public List<WebElement> ShipAccount_QuotePreview_Verification_ListCount;
 	
-	@FindBy(xpath="//b[contains(text(), 'Notes')]/parent::*")
+	@FindBy(xpath="//strong[contains(text(), 'Notes')]/parent::*")
 	public WebElement VendorNotes_DecoratorInstructions_QuotePreview_Verification;
 	
-	@FindBy(xpath="//b[contains(text(), 'Instructions:')]/parent::td")
+	@FindBy(xpath="//strong[contains(text(), 'Instructions:')]/parent::*")
 	public WebElement DecoratorInstructions_QuotePreview_Verification;
 	
 	@FindBy(xpath="//ng-content[contains(text(),'Download')]")

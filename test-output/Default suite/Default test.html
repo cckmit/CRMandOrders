@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>48/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>53/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 10 01:51:57 PKT 2019</td>
+<td>Started on:</td><td>Mon Nov 11 17:52:55 PKT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>1530 seconds (1530969 ms)</td>
+<tr><td>Total time:</td><td>1588 seconds (1588410 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,243 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Master.OrdersExecution1.ShipAccountNo_AcknowledgementDocumentVerification()'><b>ShipAccountNo_AcknowledgementDocumentVerification</b><br>Test class: Master.OrdersExecution1</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p&quot;}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;192.144.9.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir17640_125560585}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51734}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 2d5a67b55456067f634d22f26d7dec76
-*** Element info: {Using=xpath, value=//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
-	at OrdersTestcases.CreateOrder_FromQuote.ShipAccountNo_AcknowledgementDocument_Verification(CreateOrder_FromQuote.java:265)
-	at Master.OrdersExecution1.ShipAccountNo_AcknowledgementDocumentVerification(OrdersExecution1.java:271)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace208513211", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace208513211'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p&quot;}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;192.144.9.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir17640_125560585}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51734}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 2d5a67b55456067f634d22f26d7dec76
-*** Element info: {Using=xpath, value=//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
-	at OrdersTestcases.CreateOrder_FromQuote.ShipAccountNo_AcknowledgementDocument_Verification(CreateOrder_FromQuote.java:265)
-	at Master.OrdersExecution1.ShipAccountNo_AcknowledgementDocumentVerification(OrdersExecution1.java:271)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>77</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
-<tr>
-<td title='Master.OrdersExecution1.ShipAccountNo_Visibility_InvoiceDocumentVerification()'><b>ShipAccountNo_Visibility_InvoiceDocumentVerification</b><br>Test class: Master.OrdersExecution1</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p&quot;}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;192.144.9.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir17640_125560585}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51734}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 2d5a67b55456067f634d22f26d7dec76
-*** Element info: {Using=xpath, value=//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
-	at OrdersTestcases.CreateOrder_FromQuote.ShipAccountNo_Visibility_InvoiceDocument_Verification(CreateOrder_FromQuote.java:86)
-	at Master.OrdersExecution1.ShipAccountNo_Visibility_InvoiceDocumentVerification(OrdersExecution1.java:240)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace198250778", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace198250778'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p&quot;}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;192.144.9.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir17640_125560585}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51734}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 2d5a67b55456067f634d22f26d7dec76
-*** Element info: {Using=xpath, value=//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
-	at OrdersTestcases.CreateOrder_FromQuote.ShipAccountNo_Visibility_InvoiceDocument_Verification(CreateOrder_FromQuote.java:86)
-	at Master.OrdersExecution1.ShipAccountNo_Visibility_InvoiceDocumentVerification(OrdersExecution1.java:240)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>56</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
-<tr>
 <td title='Master.OrdersExecution1.ShipAccountNo_Visibility_QuoteDocumentVerification()'><b>ShipAccountNo_Visibility_QuoteDocumentVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p&quot;}
   (Session info: chrome=78.0.3904.97)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;192.144.9.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;172.25.178.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir17640_125560585}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51734}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 2d5a67b55456067f634d22f26d7dec76
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir16940_384956409}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:62610}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 778fef50de719e1862f0dd6648e2f805
 *** Element info: {Using=xpath, value=//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -358,15 +130,15 @@ Session ID: 2d5a67b55456067f634d22f26d7dec76
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace910101408", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace910101408'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace1346237136", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1346237136'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p&quot;}
   (Session info: chrome=78.0.3904.97)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;192.144.9.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;172.25.178.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir17640_125560585}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51734}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 2d5a67b55456067f634d22f26d7dec76
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir16940_384956409}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:62610}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 778fef50de719e1862f0dd6648e2f805
 *** Element info: {Using=xpath, value=//*[@id=&apos;order-contact&apos;]/div/div[2]/div[4]/p}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -414,350 +186,8 @@ Session ID: 2d5a67b55456067f634d22f26d7dec76
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>74</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
-<tr>
-<td title='Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification()'><b>VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification</b><br>Test class: Master.OrdersExecution1</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//b[contains(text(), &apos;Notes&apos;)]/parent::*&quot;}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;192.144.9.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir17640_125560585}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51734}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 2d5a67b55456067f634d22f26d7dec76
-*** Element info: {Using=xpath, value=//b[contains(text(), &apos;Notes&apos;)]/parent::*}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.getText(Unknown Source)
-	at OrdersTestcases.CreateOrder_FromQuote.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreview_Verification(CreateOrder_FromQuote.java:287)
-	at Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification(OrdersExecution1.java:277)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace532297836", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace532297836'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//b[contains(text(), &apos;Notes&apos;)]/parent::*&quot;}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;192.144.9.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir17640_125560585}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51734}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 2d5a67b55456067f634d22f26d7dec76
-*** Element info: {Using=xpath, value=//b[contains(text(), &apos;Notes&apos;)]/parent::*}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.getText(Unknown Source)
-	at OrdersTestcases.CreateOrder_FromQuote.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreview_Verification(CreateOrder_FromQuote.java:287)
-	at Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification(OrdersExecution1.java:277)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>49</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
-<tr>
-<td title='Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification()'><b>VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification</b><br>Test class: Master.OrdersExecution1</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//b[contains(text(), &apos;Notes&apos;)]/parent::*&quot;}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;192.144.9.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir17640_125560585}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51734}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 2d5a67b55456067f634d22f26d7dec76
-*** Element info: {Using=xpath, value=//b[contains(text(), &apos;Notes&apos;)]/parent::*}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.getText(Unknown Source)
-	at OrdersTestcases.CreateOrder_FromQuote.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreview_Verification(CreateOrder_FromQuote.java:127)
-	at Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification(OrdersExecution1.java:252)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1668376627", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1668376627'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//b[contains(text(), &apos;Notes&apos;)]/parent::*&quot;}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;192.144.9.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir17640_125560585}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51734}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 2d5a67b55456067f634d22f26d7dec76
-*** Element info: {Using=xpath, value=//b[contains(text(), &apos;Notes&apos;)]/parent::*}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.getText(Unknown Source)
-	at OrdersTestcases.CreateOrder_FromQuote.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreview_Verification(CreateOrder_FromQuote.java:127)
-	at Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification(OrdersExecution1.java:252)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>48</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
-<tr>
-<td title='Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification()'><b>VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification</b><br>Test class: Master.OrdersExecution1</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//b[contains(text(), &apos;Notes&apos;)]/parent::*&quot;}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;192.144.9.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir17640_125560585}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51734}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 2d5a67b55456067f634d22f26d7dec76
-*** Element info: {Using=xpath, value=//b[contains(text(), &apos;Notes&apos;)]/parent::*}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.getText(Unknown Source)
-	at OrdersTestcases.CreateQuote.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreview_Verification(CreateQuote.java:443)
-	at Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification(OrdersExecution1.java:204)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace694329275", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace694329275'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//b[contains(text(), &apos;Notes&apos;)]/parent::*&quot;}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;MACPK-WKS-0132&apos;, ip: &apos;192.144.9.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\MUHAMM~1.IFT\AppData\Local\Temp\scoped_dir17640_125560585}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51734}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 2d5a67b55456067f634d22f26d7dec76
-*** Element info: {Using=xpath, value=//b[contains(text(), &apos;Notes&apos;)]/parent::*}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.getText(Unknown Source)
-	at OrdersTestcases.CreateQuote.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreview_Verification(CreateQuote.java:443)
-	at Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification(OrdersExecution1.java:204)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>105</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>275</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -769,243 +199,268 @@ Session ID: 2d5a67b55456067f634d22f26d7dec76
 <tr>
 <td title='Master.OrdersExecution1.AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel()'><b>AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>8</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>10</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CPN_NumberVisibilityAtInvoiceDoc_Verification()'><b>CPN_NumberVisibilityAtInvoiceDoc_Verification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>0</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CPN_Number_QuoteDocPreview_Verification()'><b>CPN_Number_QuoteDocPreview_Verification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>2</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CreateInvoice()'><b>CreateInvoice</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>57</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>58</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CreateInvoiceShippingAddress_Verification()'><b>CreateInvoiceShippingAddress_Verification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>0</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CreateOrder_AcknowlodgementAddressVerification()'><b>CreateOrder_AcknowlodgementAddressVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>0</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CreateOrder_BillingAddressVerification()'><b>CreateOrder_BillingAddressVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>26</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>28</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CreateOrder_Delete_Orderwith_Associated_Invoices()'><b>CreateOrder_Delete_Orderwith_Associated_Invoices</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>4</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>5</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CreateOrder_FromQuote_LinkedTransactionInvoice()'><b>CreateOrder_FromQuote_LinkedTransactionInvoice</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>71</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>73</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen()'><b>CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>6</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>8</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CreateOrder_ShippingAddressVerification()'><b>CreateOrder_ShippingAddressVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>0</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CreateQuote_AddingProductToQuote()'><b>CreateQuote_AddingProductToQuote</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>4</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>5</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CreateQuote_BillingAddress_Verification()'><b>CreateQuote_BillingAddress_Verification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>29</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CreateQuote_ShippingAddress_Verification()'><b>CreateQuote_ShippingAddress_Verification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>0</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CreateQuote_Verification()'><b>CreateQuote_Verification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>68</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CustomProducts_SupplierSelectionDropdown_Verification()'><b>CustomProducts_SupplierSelectionDropdown_Verification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>3</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>4</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.CustomerFacingDoc_CPN_Visible_EnableFromSettings()'><b>CustomerFacingDoc_CPN_Visible_EnableFromSettings</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>30</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>31</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.DeleteInvoice_WithPaymentLeft()'><b>DeleteInvoice_WithPaymentLeft</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>35</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.DeleteOrder_Orderlevel()'><b>DeleteOrder_Orderlevel</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>6</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>7</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Enterpaymentpartial()'><b>Enterpaymentpartial</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>25</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>28</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification()'><b>FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>1</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>2</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.FieldsData_Verifications_AfterReorder()'><b>FieldsData_Verifications_AfterReorder</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>0</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Full_Payment_Verify()'><b>Full_Payment_Verify</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>15</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.InvalidFileUpload_ErrorMessageDisplayVerification()'><b>InvalidFileUpload_ErrorMessageDisplayVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>27</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.InvoiceCreationBillingAddress()'><b>InvoiceCreationBillingAddress</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>16</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>19</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.LinkedTransaction_Navigation_To_OrderScreen()'><b>LinkedTransaction_Navigation_To_OrderScreen</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>6</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>7</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Linked_Transaction_ReOrder_Verifications()'><b>Linked_Transaction_ReOrder_Verifications</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>1</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.LoginApp()'><b>LoginApp</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>22</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>25</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification()'><b>Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>0</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>1</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.New_InhandDate_AfterReorderVerification()'><b>New_InhandDate_AfterReorderVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>162</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>163</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.OrderSaving_WithoutSalesPerson_ValidationVerification()'><b>OrderSaving_WithoutSalesPerson_ValidationVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>12</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>13</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.OrdersListing_SearchOrderField_PlaceholderVerification()'><b>OrdersListing_SearchOrderField_PlaceholderVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>3</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Partial_PaymentLink_Verification()'><b>Partial_PaymentLink_Verification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>37</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>40</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.PayWith_ElectronicFundsOption_DropdownValueVerification()'><b>PayWith_ElectronicFundsOption_DropdownValueVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>5</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>6</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification()'><b>Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>6</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification()'><b>Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>6</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>7</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Product_AddedTo_Invoice()'><b>Product_AddedTo_Invoice</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>11</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>12</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Quote_Download()'><b>Quote_Download</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>20</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Reorder_Verification()'><b>Reorder_Verification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>42</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Settings_AutomaticSalesTaxChecked()'><b>Settings_AutomaticSalesTaxChecked</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>6</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>7</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
+<tr>
+<td title='Master.OrdersExecution1.ShipAccountNo_AcknowledgementDocumentVerification()'><b>ShipAccountNo_AcknowledgementDocumentVerification</b><br>Test class: Master.OrdersExecution1</td>
+<td></td>
+<td>33</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification()'><b>ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>0</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
+<tr>
+<td title='Master.OrdersExecution1.ShipAccountNo_Visibility_InvoiceDocumentVerification()'><b>ShipAccountNo_Visibility_InvoiceDocumentVerification</b><br>Test class: Master.OrdersExecution1</td>
+<td></td>
+<td>11</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo()'><b>ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>99</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.ShipVia_LoomisGroundOption_DropdownValueVerifcation()'><b>ShipVia_LoomisGroundOption_DropdownValueVerifcation</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>0</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Shipping_AddressEditing()'><b>Shipping_AddressEditing</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>25</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>29</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.UploadDSTFileOrders_Orderlevel()'><b>UploadDSTFileOrders_Orderlevel</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
-<td>71</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>73</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.UploadSVGFileOrders_Orderlevel()'><b>UploadSVGFileOrders_Orderlevel</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>27</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.Upload_AIExtensionFile()'><b>Upload_AIExtensionFile</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>42</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
+<tr>
+<td title='Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification()'><b>VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification</b><br>Test class: Master.OrdersExecution1</td>
+<td></td>
+<td>4</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
+<tr>
+<td title='Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification()'><b>VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification</b><br>Test class: Master.OrdersExecution1</td>
+<td></td>
+<td>3</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
+<tr>
+<td title='Master.OrdersExecution1.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification()'><b>VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification</b><br>Test class: Master.OrdersExecution1</td>
+<td></td>
+<td>92</td>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 <tr>
 <td title='Master.OrdersExecution1.VerifyCogWheelNotExistsFor_CustomProductsVerification()'><b>VerifyCogWheelNotExistsFor_CustomProductsVerification</b><br>Test class: Master.OrdersExecution1</td>
 <td></td>
 <td>48</td>
-<td>Master.OrdersExecution1@2ddc8ecb</td></tr>
+<td>Master.OrdersExecution1@5552768b</td></tr>
 </table><p>
 </body>
 </html>

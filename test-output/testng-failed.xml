@@ -5,14 +5,9 @@
     <classes>
       <class name="Master.OrdersExecution1">
         <methods>
-          <include name="ShipAccountNo_Visibility_InvoiceDocumentVerification"/>
           <include name="teardown"/>
           <include name="ShipAccountNo_Visibility_QuoteDocumentVerification"/>
-          <include name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification"/>
           <include name="getResult"/>
-          <include name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification"/>
-          <include name="ShipAccountNo_AcknowledgementDocumentVerification"/>
-          <include name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification"/>
           <include name="Startup"/>
         </methods>
       </class> <!-- Master.OrdersExecution1 -->
