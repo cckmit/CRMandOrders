@@ -7,7 +7,7 @@
   
    		<test name="Some Workflow Tests 1"  thread-count="5" parallel="none">
     		<classes>
-    			<class name="Master.OrdersExecution1"/>
+    			<class name="Master.OrdersExecution2"/>
     		</classes>
   		</test>
   	

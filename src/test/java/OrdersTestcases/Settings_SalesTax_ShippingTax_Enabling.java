@@ -47,7 +47,7 @@ public class Settings_SalesTax_ShippingTax_Enabling extends OrdersExecution1 {
 	       }
 	}
 	
-	public static void AutomaticSalesTax_checked() throws InterruptedException{
+	public static void AutomaticSalesTax_checked() throws InterruptedException, IOException{
 		try{
 	 //Click the userInfoIcon on My Order screen	 
 	 Settings_SalesTax.OrderListing_UserInfoIcon.click();
@@ -109,6 +109,8 @@ public class Settings_SalesTax_ShippingTax_Enabling extends OrdersExecution1 {
    	if(Settings_SalesTax.CreateOrder_ProductAddedToOrder_Successfull.getText().contains("Success"))
   	   {
    	   System.out.println("Automatic Sales Tax Checkbox selected Successfully");
+   	   resultPass("Settings_AutomaticSalesTaxChecked", "Automatic Sales Tax Checkbox selected Successfully");
+
    	   }  
    	   
    	 }

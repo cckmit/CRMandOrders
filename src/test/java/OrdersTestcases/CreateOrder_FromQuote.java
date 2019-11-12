@@ -124,7 +124,7 @@ public class CreateOrder_FromQuote  extends OrdersExecution1{
 	public static void VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreview_Verification() throws InterruptedException, IOException{
 		try{
 			
-			if(CreateOrderFromQuote.VendorNotes_DecoratorInstructions_QuotePreview_Verification.getText().contains("Notes: Test Vendor Notes") && CreateOrderFromQuote.DecoratorInstructions_QuotePreview_Verification.getText().contains("Instructions: Test Decorator Instructions") )
+			if(CreateOrderFromQuote.VendorNotes_DecoratorInstructions_QuotePreview_Verification.getText().contains("Notes:") && CreateOrderFromQuote.DecoratorInstructions_QuotePreview_Verification.getText().contains("Instructions:") && CreateOrderFromQuote.VendorNotes_DecoratorInstructions_QuotePreview_Verification.getText().contains("Test Vendor Notes") && CreateOrderFromQuote.DecoratorInstructions_QuotePreview_Verification.getText().contains("Test Decorator Instructions") )
 			{
 				System.out.println("VendorNotes and Decorartor Instructions Displayed on Invoice Preview Successfully");
 				
