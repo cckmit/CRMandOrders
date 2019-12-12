@@ -8,9 +8,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 import org.openqa.selenium.support.PageFactory;
-import org.testng.SkipException;
 import org.testng.asserts.SoftAssert;
-import org.testng.Assert;
 
 import PageFactoryandTestdata.CrmLocatiors;
 import PageFactoryandTestdata.CrmTestData;

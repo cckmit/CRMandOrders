@@ -66,7 +66,7 @@ public class CRMExecution extends HelpingFunction{
 	
 	 	
 
-	
+	/*
 	 	@Test  (priority=2)
  		public static void ValidatingCompanyRequiredField() throws InterruptedException, AWTException, IOException{
 	    	  CompanyScenarios.ValidatingRequiredField();
@@ -575,7 +575,7 @@ public class CRMExecution extends HelpingFunction{
 			 	  
 		 	}
 	 	
-	 	
+	 	*/
 		 @AfterMethod
 
 			public void getResult(ITestResult result ) throws IOException, InterruptedException{

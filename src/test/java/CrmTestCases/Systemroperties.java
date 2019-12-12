@@ -36,6 +36,7 @@ public class Systemroperties extends HelpingFunction {
 						htmlReporter.getStartTime();
 						htmlReporter.getEndTime();
 						
+				
 
 					} 
 					catch (IndexOutOfBoundsException e) {

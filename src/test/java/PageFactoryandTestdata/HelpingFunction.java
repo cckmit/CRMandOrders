@@ -26,7 +26,7 @@ public class HelpingFunction{
 	public static String browser="chrome";
 	public static String TaskCurdat;
 	
-	protected static String envirnment=CrmTestData.prod;
+	protected static String envirnment=CrmTestData.uat;
 				static String user=System.getProperty("user.name");
 				public static String downloadPath = "C:\\Users\\"+user+"\\Downloads";
 			public static void Input(String message, WebElement key,String value){

@@ -19,8 +19,7 @@
     	<class name="Master.OrdersExecution2"/>
     </classes>
   </test>
-  
-  
+    
    <test name="Some Workflow Tests 4" parallel="none">
     <classes>
     	<class name="Master.WESPORDER"/>

@@ -7,7 +7,7 @@
   
    		<test name="Some Workflow Tests 1"  thread-count="5" parallel="none">
     		<classes>
-    			<class name="Master.OrdersExecution2"/>
+    			<class name="Master.CRMExecution"/>
     		</classes>
   		</test>
   	
