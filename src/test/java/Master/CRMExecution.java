@@ -36,6 +36,9 @@ public class CRMExecution extends HelpingFunction{
 
 	static String Suite="CRMReport.html";
 
+	
+	
+	
 		
 	@BeforeSuite
 			public static void SystmProperties() throws InterruptedException, AWTException, IOException{
