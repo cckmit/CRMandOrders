@@ -26,8 +26,6 @@
     </classes>
   </test>
   
-  
-  
   <test name="Some Workflow Tests 5" parallel="none">
     <classes>
     	<class name="Master.SepRelease"/>

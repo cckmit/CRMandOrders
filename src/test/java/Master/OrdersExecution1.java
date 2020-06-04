@@ -61,7 +61,7 @@ public class OrdersExecution1 {
  	 Settings_SalesTax_ShippingTax_Enabling.OrdersListing_SearchOrderField_Placeholder_Verification();
  	
    }
-
+/*
 @Test(priority=2)
 public void Settings_AutomaticSalesTaxChecked() throws IOException, InterruptedException, AWTException{
 	 Settings_SalesTax_ShippingTax_Enabling.AutomaticSalesTax_checked();
@@ -390,7 +390,7 @@ public void Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification() 
 	     CreateOrder.FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValues_Verification();    
    }
    
-
+*/
 
   @AfterMethod
 public void getResult(ITestResult result){

@@ -1,190 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-07T20:08:01Z" name="My Suite" finished-at="2019-11-07T20:13:02Z" duration-ms="301326">
+  <suite started-at="2020-01-17T17:24:57Z" name="My Suite" finished-at="2020-01-17T17:28:24Z" duration-ms="206652">
     <groups>
     </groups>
-    <test started-at="2019-11-07T20:08:01Z" name="Some Workflow Tests 5" finished-at="2019-11-07T20:13:02Z" duration-ms="301326">
-      <class name="Master.SepRelease">
-        <test-method is-config="true" signature="SystmProperties()[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:08:01Z" name="SystmProperties" finished-at="2019-11-07T20:08:01Z" duration-ms="130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SystmProperties -->
-        <test-method is-config="true" signature="Startup()[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:08:01Z" name="Startup" finished-at="2019-11-07T20:08:08Z" duration-ms="7002" status="PASS">
+    <test started-at="2020-01-17T17:24:57Z" name="Some Workflow Tests 1" finished-at="2020-01-17T17:26:53Z" duration-ms="115989">
+      <class name="Master.CRMExecution">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:24:57Z" name="Startup" finished-at="2020-01-17T17:25:04Z" duration-ms="7031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startup -->
-        <test-method signature="LoginIdaho()[pri:1, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:08:08Z" name="LoginIdaho" finished-at="2019-11-07T20:08:11Z" duration-ms="3592" status="PASS">
+        <test-method signature="LoginIdaho()[pri:0, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:25:04Z" name="LoginIdaho" finished-at="2020-01-17T17:25:16Z" duration-ms="12198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginIdaho -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:08:12Z" name="getResult" finished-at="2019-11-07T20:08:12Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:25:16Z" name="getResult" finished-at="2020-01-17T17:25:17Z" duration-ms="526" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginIdaho status=SUCCESS method=SepRelease.LoginIdaho()[pri:1, instance:Master.SepRelease@55040f2f] output={null}]]]>
+                <![CDATA[[TestResult name=LoginIdaho status=SUCCESS method=CRMExecution.LoginIdaho()[pri:0, instance:Master.CRMExecution@29ba4338] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="CreateCustomerCompany()[pri:2, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:08:12Z" name="CreateCustomerCompany" finished-at="2019-11-07T20:09:11Z" duration-ms="58743" status="PASS">
+        <test-method signature="VerifyOrdersDomain()[pri:1, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:25:17Z" name="VerifyOrdersDomain" finished-at="2020-01-17T17:25:21Z" duration-ms="3871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrdersDomain -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:25:21Z" name="getResult" finished-at="2020-01-17T17:25:21Z" duration-ms="89" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyOrdersDomain status=SUCCESS method=CRMExecution.VerifyOrdersDomain()[pri:1, instance:Master.CRMExecution@29ba4338] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ValidatingCompanyRequiredField()[pri:2, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:25:21Z" name="ValidatingCompanyRequiredField" finished-at="2020-01-17T17:25:49Z" duration-ms="28130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingCompanyRequiredField -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:25:49Z" name="getResult" finished-at="2020-01-17T17:25:49Z" duration-ms="65" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingCompanyRequiredField status=SUCCESS method=CRMExecution.ValidatingCompanyRequiredField()[pri:2, instance:Master.CRMExecution@29ba4338] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="VerifyStateDDwrtCountry()[pri:3, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:25:49Z" name="VerifyStateDDwrtCountry" finished-at="2020-01-17T17:26:02Z" duration-ms="12829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStateDDwrtCountry -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:26:02Z" name="getResult" finished-at="2020-01-17T17:26:02Z" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyStateDDwrtCountry status=SUCCESS method=CRMExecution.VerifyStateDDwrtCountry()[pri:3, instance:Master.CRMExecution@29ba4338] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateCustomerCompany()[pri:4, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:26:02Z" name="CreateCustomerCompany" finished-at="2020-01-17T17:26:53Z" duration-ms="50944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCustomerCompany -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:09:11Z" name="getResult" finished-at="2019-11-07T20:09:11Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:26:53Z" name="getResult" finished-at="2020-01-17T17:26:53Z" duration-ms="78" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CreateCustomerCompany status=SUCCESS method=SepRelease.CreateCustomerCompany()[pri:2, instance:Master.SepRelease@55040f2f] output={null}]]]>
+                <![CDATA[[TestResult name=CreateCustomerCompany status=SUCCESS method=CRMExecution.CreateCustomerCompany()[pri:4, instance:Master.CRMExecution@29ba4338] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="AddCompanyNoteTD_963218()[pri:3, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:09:11Z" name="AddCompanyNoteTD_963218" finished-at="2019-11-07T20:09:56Z" duration-ms="45428" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddCompanyNoteTD_963218 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:09:56Z" name="getResult" finished-at="2019-11-07T20:09:56Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=AddCompanyNoteTD_963218 status=SUCCESS method=SepRelease.AddCompanyNoteTD_963218()[pri:3, instance:Master.SepRelease@55040f2f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="EditCompanyNote()[pri:4, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:09:56Z" name="EditCompanyNote" finished-at="2019-11-07T20:10:18Z" duration-ms="21765" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EditCompanyNote -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:10:18Z" name="getResult" finished-at="2019-11-07T20:10:18Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=EditCompanyNote status=SUCCESS method=SepRelease.EditCompanyNote()[pri:4, instance:Master.SepRelease@55040f2f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="CreateContactFromMain()[pri:6, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:10:18Z" name="CreateContactFromMain" finished-at="2019-11-07T20:10:43Z" duration-ms="25329" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateContactFromMain -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:10:44Z" name="getResult" finished-at="2019-11-07T20:10:44Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CreateContactFromMain status=SUCCESS method=SepRelease.CreateContactFromMain()[pri:6, instance:Master.SepRelease@55040f2f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="AddingNoteUnderContactTD_()[pri:7, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:10:44Z" name="AddingNoteUnderContactTD_" finished-at="2019-11-07T20:11:13Z" duration-ms="29075" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddingNoteUnderContactTD_ -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:11:13Z" name="getResult" finished-at="2019-11-07T20:11:13Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=AddingNoteUnderContactTD_ status=SUCCESS method=SepRelease.AddingNoteUnderContactTD_()[pri:7, instance:Master.SepRelease@55040f2f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="EditContactNote()[pri:8, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:11:13Z" name="EditContactNote" finished-at="2019-11-07T20:11:34Z" duration-ms="20984" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EditContactNote -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:11:34Z" name="getResult" finished-at="2019-11-07T20:11:34Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=EditContactNote status=SUCCESS method=SepRelease.EditContactNote()[pri:8, instance:Master.SepRelease@55040f2f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="CreateNoteFromMain()[pri:10, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:11:34Z" name="CreateNoteFromMain" finished-at="2019-11-07T20:11:43Z" duration-ms="9093" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateNoteFromMain -->
-        <test-method signature="PORefISNULL_93843()[pri:10, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:11:43Z" name="PORefISNULL_93843" finished-at="2019-11-07T20:12:03Z" duration-ms="20162" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PORefISNULL_93843 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:11:43Z" name="getResult" finished-at="2019-11-07T20:11:43Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CreateNoteFromMain status=SUCCESS method=SepRelease.CreateNoteFromMain()[pri:10, instance:Master.SepRelease@55040f2f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:12:03Z" name="getResult" finished-at="2019-11-07T20:12:03Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=PORefISNULL_93843 status=SUCCESS method=SepRelease.PORefISNULL_93843()[pri:10, instance:Master.SepRelease@55040f2f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="PORefISNOTNULL_93844()[pri:11, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:12:03Z" name="PORefISNOTNULL_93844" finished-at="2019-11-07T20:12:41Z" duration-ms="38364" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PORefISNOTNULL_93844 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:12:42Z" name="getResult" finished-at="2019-11-07T20:12:42Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=PORefISNOTNULL_93844 status=SUCCESS method=SepRelease.PORefISNOTNULL_93844()[pri:11, instance:Master.SepRelease@55040f2f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="CreateQuoteFromOrder_93845()[pri:13, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:12:42Z" name="CreateQuoteFromOrder_93845" finished-at="2019-11-07T20:13:02Z" duration-ms="20593" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateQuoteFromOrder_93845 -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:13:02Z" name="endReport" finished-at="2019-11-07T20:13:02Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:26:53Z" name="endReport" finished-at="2020-01-17T17:26:53Z" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.SepRelease@55040f2f]" started-at="2019-11-07T20:13:02Z" name="getResult" finished-at="2019-11-07T20:13:02Z" duration-ms="0" status="PASS">
+      </class> <!-- Master.CRMExecution -->
+    </test> <!-- Some Workflow Tests 1 -->
+    <test started-at="2020-01-17T17:26:53Z" name="Some Workflow Tests 2" finished-at="2020-01-17T17:28:24Z" duration-ms="90630">
+      <class name="Master.CRMExecution">
+        <test-method is-config="true" signature="SystmProperties()[pri:0, instance:Master.CRMExecution@29ba4338]" started-at="2020-01-17T17:24:57Z" name="SystmProperties" finished-at="2020-01-17T17:24:57Z" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SystmProperties -->
+      </class> <!-- Master.CRMExecution -->
+      <class name="Master.OrdersExecution1">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:Master.OrdersExecution1@17c386de]" started-at="2020-01-17T17:26:53Z" name="Startup" finished-at="2020-01-17T17:27:07Z" duration-ms="14296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="LoginApp()[pri:0, instance:Master.OrdersExecution1@17c386de]" started-at="2020-01-17T17:27:07Z" name="LoginApp" finished-at="2020-01-17T17:28:15Z" duration-ms="67808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@17c386de]" started-at="2020-01-17T17:28:15Z" name="getResult" finished-at="2020-01-17T17:28:15Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CreateQuoteFromOrder_93845 status=SUCCESS method=SepRelease.CreateQuoteFromOrder_93845()[pri:13, instance:Master.SepRelease@55040f2f] output={null}]]]>
+                <![CDATA[[TestResult name=LoginApp status=SUCCESS method=OrdersExecution1.LoginApp()[pri:0, instance:Master.OrdersExecution1@17c386de] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-      </class> <!-- Master.SepRelease -->
-    </test> <!-- Some Workflow Tests 5 -->
+        <test-method signature="OrdersListing_SearchOrderField_PlaceholderVerification()[pri:1, instance:Master.OrdersExecution1@17c386de]" started-at="2020-01-17T17:28:15Z" name="OrdersListing_SearchOrderField_PlaceholderVerification" finished-at="2020-01-17T17:28:24Z" duration-ms="8519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrdersListing_SearchOrderField_PlaceholderVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution1@17c386de]" started-at="2020-01-17T17:28:24Z" name="getResult" finished-at="2020-01-17T17:28:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrdersListing_SearchOrderField_PlaceholderVerification status=SUCCESS method=OrdersExecution1.OrdersListing_SearchOrderField_PlaceholderVerification()[pri:1, instance:Master.OrdersExecution1@17c386de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Master.OrdersExecution1@17c386de]" started-at="2020-01-17T17:28:24Z" name="teardown" finished-at="2020-01-17T17:28:24Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Master.OrdersExecution1 -->
+    </test> <!-- Some Workflow Tests 2 -->
   </suite> <!-- My Suite -->
 </testng-results>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Suite" verbose="2"  parallel="none" thread-count="1">
+  
+   <test name="Some Workflow Tests 1" parallel="none">
+    <classes>
+    	<class name="Master.CRMExecution"/>
+    </classes>
+  </test>
+   <test name="Some Workflow Tests 2" parallel="none">
+    <classes>
+    	<class name="Master.test1"/>
+    </classes>
+  </test>
+   <test name="Some Workflow Tests 3" parallel="none">
+    <classes>
+    	<class name="Master.test2"/>
+    </classes>
+  </test>
+    
+   <test name="Some Workflow Tests 4" parallel="none">
+    <classes>
+    	<class name="Master.test3"/>
+    </classes>
+  </test>
+  
+</suite> 
+

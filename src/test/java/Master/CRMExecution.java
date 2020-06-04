@@ -35,11 +35,7 @@ import PageFactoryandTestdata.HelpingFunction;
 public class CRMExecution extends HelpingFunction{
 
 	static String Suite="CRMReport.html";
-
 	
-	
-	
-		
 	@BeforeSuite
 			public static void SystmProperties() throws InterruptedException, AWTException, IOException{
 
@@ -51,12 +47,15 @@ public class CRMExecution extends HelpingFunction{
 			public void Startup() throws InterruptedException, AWTException, IOException{
 
 					StartupBrowser(Suite);
+					
+					
 			} 
 	
 
 	@Test(priority=0)
 	 		public   void LoginIdaho() throws InterruptedException, AWTException, IOException{
-				 	Login.login();
+				 //	Login.login();
+				 	Login.Shadow();
 				 	
 			 	}
 
@@ -69,7 +68,7 @@ public class CRMExecution extends HelpingFunction{
 	
 	 	
 
-	/*
+	
 	 	@Test  (priority=2)
  		public static void ValidatingCompanyRequiredField() throws InterruptedException, AWTException, IOException{
 	    	  CompanyScenarios.ValidatingRequiredField();
@@ -87,7 +86,7 @@ public class CRMExecution extends HelpingFunction{
 		 	  public static void CreateCustomerCompany() throws InterruptedException, AWTException, IOException{
 				 	  CompanyScenarios.CreateCompany("Customer");	  
 			 	}
-	 	
+	 
 	 	@Test  (priority=4, dependsOnMethods="CreateCustomerCompany")
 	 	  public static void CreateContactUnderCompany() throws InterruptedException, AWTException, IOException{
 	 		 CrmLocatiors GetData=PageFactory.initElements(driver, CrmLocatiors.class);
@@ -578,7 +577,7 @@ public class CRMExecution extends HelpingFunction{
 			 	  
 		 	}
 	 	
-	 	*/
+	 	
 		 @AfterMethod
 
 			public void getResult(ITestResult result ) throws IOException, InterruptedException{
@@ -590,7 +589,7 @@ public class CRMExecution extends HelpingFunction{
 				 System.out.println("Get Test Name"+ result.getTestName());
 				 System.out.println("Get Method Name"+ result.isSuccess());
 			*/
-		//		 test = extent.createTest(result.getName());
+			 test = extent.createTest(result.getName());
 			
 				if(result.getStatus()==ITestResult.SUCCESS){
 	 				test.log(Status.PASS, result.getMethod().getDescription());

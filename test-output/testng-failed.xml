@@ -3,70 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Master.CRMExecution">
+      <class name="Master.CRMExecution2">
         <methods>
-          <include name="CompleteTaskUnderContact"/>
-          <include name="VerifyCompletedDataAndCompleteBy"/>
-          <include name="DeleteEmailFromAllEmail"/>
-          <include name="CompanyTaskDisplayingInAppointmentinAllViews"/>
-          <include name="ContactTaskDisplayingInAppointmentinAllViews"/>
-          <include name="VerifyContactFilter"/>
-          <include name="CustomizeOrderNo"/>
-          <include name="InactiveCompanyFromDashBoard"/>
-          <include name="CreateContactFromMain"/>
-          <include name="SearchCreatedCompany"/>
-          <include name="AddAddressUnderSettings"/>
-          <include name="MoveEmailToSpamFromDetailPage"/>
-          <include name="ExportCompanyCSV"/>
-          <include name="DeleteTaskUnderContact"/>
-          <include name="InactiveContAndVerifyNotShowingIn_ActiveFilter"/>
-          <include name="ChangeCompaniesVisibilityFromDashBoard"/>
-          <include name="CreateNoteFromMain"/>
-          <include name="DeleteTeam"/>
-          <include name="CreateTeam"/>
-          <include name="DeleteDefaultTask"/>
           <include name="endReport"/>
-          <include name="DeleteCompanyNote"/>
-          <include name="InactiveCompAndVerifyNotShowingIn_ActiveFilter"/>
-          <include name="EditTaskUnderCompany"/>
-          <include name="AddContactInCompany"/>
-          <include name="DeleteAddressUnderSettings"/>
-          <include name="DeleteRelationship"/>
-          <include name="CreateTaskFromMainByAddingNotesAndAssigningIttoTeam"/>
-          <include name="CreateOrderAndVerifyTaxNotCalculating"/>
-          <include name="EditTaskUnderContact"/>
-          <include name="ExportCompanyQB"/>
-          <include name="CreateRelationship"/>
-          <include name="CreateRelationshipBtCompAndContact"/>
-          <include name="DeleteCompanywithOrder"/>
-          <include name="DeleteTaskUnderCompany"/>
-          <include name="DeleteContactNote"/>
-          <include name="CreateContactWhileCreatingOrder"/>
-          <include name="DeleteInactiveCompany"/>
-          <include name="MoveEmailToNotSpam"/>
-          <include name="ExportoVcard"/>
-          <include name="CreateAndDeleteComp"/>
-          <include name="Startup"/>
-          <include name="VerifyCompanyFilter"/>
-          <include name="CreateDefaultTask"/>
-          <include name="CompleteTaskUnderCompany"/>
-          <include name="MoveEmailToSpam"/>
-          <include name="DeleteEmailFromSpam"/>
-          <include name="getResult"/>
-          <include name="SearchCreatedContact"/>
-          <include name="AddTaskUnderContact"/>
-          <include name="ChangeCompaniesRecordOwnerFromDashBoard"/>
-          <include name="AddCompanyAddress"/>
-          <include name="ExportContactCSV"/>
-          <include name="VerifyCompanyContactIconAndAddress"/>
-          <include name="AddTaskUnderCompany"/>
-          <include name="VerifyDefaultTask"/>
-          <include name="AddContactAddress"/>
-          <include name="AddTaskatAppointmentPage"/>
           <include name="SystmProperties"/>
-          <include name="DeleteEmailFromEmailDetailPage"/>
+          <include name="getResult"/>
+          <include name="Startup"/>
+          <include name="LoginIdaho"/>
         </methods>
-      </class> <!-- Master.CRMExecution -->
+      </class> <!-- Master.CRMExecution2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -26,6 +26,7 @@ Master\OrdersExecution1$3.class
 CrmTestCases\Systemroperties.class
 OrdersWESPTestcases\BrowserInitiation.class
 Master\CRMExecution.class
+Master\CRMExecution2.class
 Master\WESPORDER.class
 OrdersTestcases\CreateOrderServices.class
 OrdersTestcases\OrderFromWESP_FromCreatePresentation_Order.class

@@ -242,8 +242,6 @@ public class SepRelease extends HelpingFunction{
 			//driver.get(System.getProperty("user.dir")+"/Reports/"+Suite);
 			}
 			
-		
-		
 
 }
 

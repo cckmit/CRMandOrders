@@ -62,6 +62,7 @@ D:\Automation\CRMandOrder\src\test\java\OrdersTestcases\OrderLevel_OrderDownload
 D:\Automation\CRMandOrder\src\test\java\OrdersWESPTestcases\OrderFromWESP_ThroughCompare.java
 D:\Automation\CRMandOrder\src\test\java\OrdersTestcases\LoginWESP.java
 D:\Automation\CRMandOrder\src\test\java\Master\TestRunner.java
+D:\Automation\CRMandOrder\src\test\java\Master\CRMExecution2.java
 D:\Automation\CRMandOrder\src\test\java\Master\TestNGListener.java
 D:\Automation\CRMandOrder\src\test\java\CrmTestCases\StartBrowser.java
 D:\Automation\CRMandOrder\src\test\java\Functions\ConversionsWithoutOtherCharges2.java

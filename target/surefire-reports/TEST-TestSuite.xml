@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="302.929" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="208.162" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Muhammad.Iftikhar\AppData\Local\Temp\surefire9740118806077618712\surefirebooter3456375028627345300.jar C:\Users\Muhammad.Iftikhar\AppData\Local\Temp\surefire9740118806077618712 2019-11-08T01-07-55_773-jvmRun1 surefire8085028013614041719tmp surefire_016151133272878215876tmp"/>
+    <property name="sun.java.command" value="C:\Users\Muhammad.Iftikhar\AppData\Local\Temp\surefire9950444791285412976\surefirebooter7553821320689776547.jar C:\Users\Muhammad.Iftikhar\AppData\Local\Temp\surefire9950444791285412976 2020-01-17T22-24-52_108-jvmRun1 surefire4122462068121482357tmp surefire_05452320427261360979tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Automation\CRMandOrder\target\test-classes;D:\Automation\CRMandOrder\target\classes;C:\Users\Muhammad.Iftikhar\.m2\repository\mysql\mysql-connector-java\5.1.39\mysql-connector-java-5.1.39.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\assertj\assertj-core\1.0.0\assertj-core-1.0.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\seleniumhq\selenium\lift\3.6.0\lift-3.6.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.6.0\selenium-api-3.6.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.6.0\selenium-remote-driver-3.6.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.6.0\selenium-support-3.6.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\com\aventstack\extentreports\3.0.0\extentreports-3.0.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\io\github\bonigarcia\webdrivermanager\3.3.0\webdrivermanager-3.3.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\org\apache\commons\commons-email\1.3.1\commons-email-1.3.1.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\javax\mail\mail\1.4.5\mail-1.4.5.jar;C:\Users\Muhammad.Iftikhar\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Muhammad.Iftikhar\AppData\Local\Temp\surefire9740118806077618712\surefirebooter3456375028627345300.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Muhammad.Iftikhar\AppData\Local\Temp\surefire9950444791285412976\surefirebooter7553821320689776547.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
@@ -58,15 +58,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="LoginIdaho" classname="Master.SepRelease" time="4.104"/>
-  <testcase name="CreateCustomerCompany" classname="Master.SepRelease" time="58.815"/>
-  <testcase name="AddCompanyNoteTD_963218" classname="Master.SepRelease" time="45.501"/>
-  <testcase name="EditCompanyNote" classname="Master.SepRelease" time="21.829"/>
-  <testcase name="CreateContactFromMain" classname="Master.SepRelease" time="25.401"/>
-  <testcase name="AddingNoteUnderContactTD_" classname="Master.SepRelease" time="29.141"/>
-  <testcase name="EditContactNote" classname="Master.SepRelease" time="21.04"/>
-  <testcase name="CreateNoteFromMain" classname="Master.SepRelease" time="9.153"/>
-  <testcase name="PORefISNULL_93843" classname="Master.SepRelease" time="20.25"/>
-  <testcase name="PORefISNOTNULL_93844" classname="Master.SepRelease" time="38.413"/>
-  <testcase name="CreateQuoteFromOrder_93845" classname="Master.SepRelease" time="20.649"/>
+  <testcase name="LoginIdaho" classname="Master.CRMExecution" time="12.2"/>
+  <testcase name="VerifyOrdersDomain" classname="Master.CRMExecution" time="3.872"/>
+  <testcase name="ValidatingCompanyRequiredField" classname="Master.CRMExecution" time="28.13"/>
+  <testcase name="VerifyStateDDwrtCountry" classname="Master.CRMExecution" time="12.829"/>
+  <testcase name="CreateCustomerCompany" classname="Master.CRMExecution" time="50.945"/>
+  <testcase name="LoginApp" classname="Master.OrdersExecution1" time="67.809"/>
+  <testcase name="OrdersListing_SearchOrderField_PlaceholderVerification" classname="Master.OrdersExecution1" time="8.522"/>
 </testsuite>
